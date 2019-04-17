@@ -159,6 +159,8 @@ header.sectionHome {
 .burger.active {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
+    -moz-outline: none;
+    outline: none;
 }
 
 .burger__bar {
@@ -169,6 +171,7 @@ header.sectionHome {
     left: 0;
     -webkit-transition: .2s;
     transition: .2s;
+   
 }
 
 .burger__bar.dark {
