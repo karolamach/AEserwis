@@ -17,6 +17,7 @@ html {
 
 body {
     overflow-x: hidden;
+    margin:0;
 }
 
 .flex {
@@ -25,7 +26,10 @@ body {
     display: flex;
 }
 
-
+h1{
+  font-size: 2em;
+  margin: 0.67em 0;
+}
 
 header.sectionHome {
     height: 100vh;
@@ -358,3 +362,11 @@ header.sectionHome {
     -webkit-transition: .3s;
     transition: .3s;
 }
+
+a {
+    background-color: transparent;
+  }
+
+  img {
+    border-style: none;
+  }
