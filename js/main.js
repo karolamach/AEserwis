@@ -35,12 +35,17 @@ $('.navLink, .btn__scrollToTop').on('click', function () {
 
 $(document).on('scroll', function () {
 	const $scrollValue = $(this).scrollTop();
-	const $offer = $('.sectionOffer');
+    const $offer = $('.sectionOffer');
+    const $promo = $('.sectionPromo');
+    const $aboutus = $('.sectionAboutus');
 
 
-	const $offerFromTop = $offer.offset().top;
+
+    const $offerFromTop = $offer.offset().top;
+    const $promoFromTop = $promo.offset().top;
+    const $aboutusFromTop = $aboutus.offset().top;
 	const $burgerFromTop = $('.burger').css('top').replace('px', '')
-	if ($scrollValue > $FromTop - $burgerFromTop && $scrollValue < $testimonialsFromTop - $burgerFromTop) {
+	if ($scrollValue > $promFromTop - $burgerFromTop && $scrollValue < $aboutusFromTop - $burgerFromTop) {
 		$('.burger__bar').addClass('dark');
 
 	} else {
