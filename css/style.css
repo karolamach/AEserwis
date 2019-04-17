@@ -287,6 +287,7 @@ header.section--home {
     font-weight: 700;
     text-transform: uppercase;
     margin: 20px 0;
+    color: darkslategrey;
 }
 
 .main__descr {
@@ -320,7 +321,7 @@ header.section--home {
 
 
 .section--aboutus {
-    background-color:white;
+    background-color: skyblue;
     color: darkslategrey;
 }
 
