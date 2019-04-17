@@ -48,6 +48,7 @@ header.sectionHome {
     -webkit-transition: .3s linear;
     transition: .3s linear;
 }
+    
 
 
 .nav.active {
@@ -71,6 +72,7 @@ header.sectionHome {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    font-weight: bold;
 }
 
 .navItem {
@@ -85,6 +87,7 @@ header.sectionHome {
     font-size: 3rem;
     -webkit-transition: .5s;
     transition: .5s;
+    font-weight: bold;
 }
 
 .navLink:hover {
@@ -156,7 +159,7 @@ header.sectionHome {
     position: absolute;
     width: 100%;
     height: 20%;
-    background-color: #fff;
+    background-color: red;
     left: 0;
     -webkit-transition: .2s;
     transition: .2s;
