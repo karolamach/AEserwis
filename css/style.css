@@ -25,12 +25,12 @@ body {
 
 
 
-header.section--home {
+header.sectionHome {
     height: 100vh;
     background-color: white;
 }
 
-.nav__container {
+.navContainer {
     position: relative;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -59,7 +59,7 @@ header.section--home {
     overflow: hidden;
 }
 
-.nav__list {
+.navList {
     height: 100%;
     padding: 20% 0;
     -webkit-box-orient: vertical;
@@ -73,11 +73,11 @@ header.section--home {
     align-items: center;
 }
 
-.nav__item {
+.navItem {
     width: 100%;
 }
 
-.nav__link {
+.navLink {
     display: block;
     text-decoration: none;
     color: lightskyblue;
@@ -87,13 +87,13 @@ header.section--home {
     transition: .5s;
 }
 
-.nav__link:hover {
+.navLink:hover {
     background-color:red;
     border-radius: .4rem;
 }
 
 
-.logo__container {
+.logoContainer {
     position: relative;
     display: block;
     width: 116px;
@@ -102,19 +102,19 @@ header.section--home {
     transition: .3s linear;
 }
 
-.logo__container.active {
+.logoContainer.active {
     position: fixed;
     top: 10%;
     left: 10%;
 }
 
-.logo__img {
+.logoImg {
     height: auto;
 }
 
 
 
-.header__main-heading {
+.mainHeading {
     padding: 3rem 0;
     font-size: 3rem;
     color: lightskyblue;
@@ -253,13 +253,13 @@ header.section--home {
 }
 
 
-.section__descr {
+.sectionDescr {
     font-size: 1.8rem;
     font-weight: 400;
     margin: 20px 0;
 }
 
-.section__main {
+.sectionMain {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -272,7 +272,7 @@ header.section--home {
     width: 100%
 }
 
-.main__box {
+.mainBox {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -282,7 +282,7 @@ header.section--home {
     margin: 30px 0;
 }
 
-.main__title {
+.mainTitle {
     font-size: 2.2rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -290,19 +290,19 @@ header.section--home {
     color: darkslategrey;
 }
 
-.main__descr {
+.mainDescr {
     font-size: 1.6rem;
     font-weight: 300;
 }
 
 
 
-.section--offer {
+.sectionOffer {
     background-color: skyblue;
     color: white;
 }
 
-.main__icon {
+.mainIcon {
     -ms-flex-item-align: center;
     align-self: center;
     display: block;
@@ -313,36 +313,36 @@ header.section--home {
 
 
 
-.section--promo {
+.sectionPromo {
     background-color:white;
     color:darkslategray;
 }
 
 
 
-.section--aboutus {
+.sectionAboutus {
     background-color: skyblue;
     color: darkslategrey;
 }
 
 
-.section.section--footer {
+.section.sectionFooter {
     background-color: darkslategray;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.footer__container {
+.footerContainer {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
-.footer__container li {
+.footerContainer li {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
 }
 
-.footer__link {
+.footerLink {
     display: block;
     margin: 10px;
     padding: 10px 20px;

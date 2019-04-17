@@ -1,5 +1,5 @@
 @media (min-width: 359px) {
-    .nav__container {
+    .navContainer {
         -ms-flex-item-align: stretch;
         align-self: stretch;
         -webkit-box-pack: justify;
@@ -7,22 +7,22 @@
         justify-content: space-between;
     }
 
-    header.section--home {
+    header.sectionHome {
         padding: 15% 10%;
     }
 
-    .header__h1 {
+    .mainHeading {
         font-size: 3.2rem;
         line-height: 1.7;
     }
 }
 
 @media (min-width: 500px) {
-    header.section--home {
+    header.sectionHome {
         padding: 10%;
     }
 
-    .nav__list {
+    .navList {
         padding: 10% 0;
     }
 
@@ -36,45 +36,36 @@
         padding: 10%;
     }
 
-    .section__main {
+    .sectionMain {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
-    .main__box {
+    .mainBox {
         -ms-flex-preferred-size: 47%;
         flex-basis: 47%;
     }
 
-    .btn__container {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        width: 100%;
-    }
 
-    
-
-
-    .footer__container {
+    .footerContainer {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
     }
 
-    .footer__container li {
+    .footerContainer li {
         -ms-flex-preferred-size: 20%;
         flex-basis: 20%;
     }
 }
 
 @media (orientation: landscape) {
-    header.section--header {
+    header.sectionHome {
         padding: 5%;
     }
 
-    .header__h1 {
+    .mainHeading {
         font-size: 2.7rem;
         line-height: 1.5;
         padding: 3rem;
@@ -91,7 +82,7 @@
         padding: 60px 20px 10px;
     }
 
-    .nav__list {
+    .navList {
         padding: 0 20%;
     }
 
@@ -99,16 +90,16 @@
 }
 
 @media (min-width: 767px) {
-    header.section--home {
+    header.sectionHome {
         height: 600px;
         padding: 65px 70px 100px
     }
 
-    .nav__item {
+    .navItem {
         width: 50%;
     }
 
-    .nav__link {
+    .navLink {
         padding: 20px 0;
         font-size: 3.5rem;
     }
@@ -131,47 +122,35 @@
         padding: 65px 70px 100px;
     }
 
-    .section__title {
+    .sectionTitle {
         font-size: 4em;
     }
 
-    .social__link {
-        opacity: .6;
-    }
-
-    .social__link:hover {
-        opacity: 1;
-    }
-
-  
-
-    
-
-    .footer__link:hover {
+    .footerLink:hover {
         color: #30bae7
     }
 
-    .footer__container li {
+    .footerContainer li {
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
     }
 }
 
 @media (min-width: 500px) and (max-width: 766px) {
-    .section__main--promo {
+    .sectionMainPromo {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
     }
 
-    .main__box--promo {
+    .mainBoxPromo {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 }
 
 @media (min-width: 1024px) {
-    .header__h1 {
+    .mainHeading{
         font-size: 4.2rem;
         line-height: 1.2;
         padding: 0;
@@ -214,7 +193,7 @@
         padding: 0;
     }
 
-    .nav__list {
+    .navList {
         padding: 0;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -222,13 +201,13 @@
         flex-direction: row;
     }
 
-    .nav__item {
+    .navItem {
         margin: 0 10px;
         width: 77px;
         height: 36px;
     }
 
-    .nav__link {
+    .navLink {
         width: 100%;
         padding: 0;
         font-size: 1.6rem;
@@ -240,25 +219,25 @@
         padding: 120px 100px 130px;
     }
 
-    .section__descr {
+    .sectionDescr {
         width: 70%;
     }
 
-    .section__main {
+    .sectionMain {
         margin-top: 50px;
     }
 
-    .main__box {
+    .mainBox {
         -ms-flex-preferred-size: 25%;
         flex-basis: 25%;
         padding: 0 10px;
     }
 
-    .main__title {
+    .mainTitle {
         margin: 0 0 50px;
     }
 
-    .main__icon {
+    .mainIcon {
         width: auto;
         margin-bottom: 50px;
         max-height: 165px;
@@ -271,11 +250,11 @@
 }
 
 @media (min-width: 1440px) {
-    header.section--home {
+    header.sectionHome {
         padding: 65px 200px 150px
     }
 
-    .nav__container {
+    .navContainer {
         width: 1440px;
         padding: 0 50px;
         -ms-flex-item-align: center;
@@ -286,16 +265,16 @@
         padding: 120px 200px 130px;
     }
 
-    .section__main {
+    .sectionMain {
         max-width: 1440px;
         -ms-flex-pack: distribute;
     }
 
-    .main__title {
+    .mainTitle {
         font-size: 2.4rem;
     }
 
-    .main__box {
+    .mainBox {
         -ms-flex-preferred-size: 20%;
         flex-basis: 20%;
         padding: 0;
